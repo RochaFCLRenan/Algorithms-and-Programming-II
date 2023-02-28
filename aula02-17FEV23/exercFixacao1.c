@@ -13,7 +13,7 @@ int main(){
       double SUM_OF_AGES_IN_A_TEAM = 0;
       for (int j = 1; j <= PLAYERS_IN_A_TEAM; j++)
       {
-         printf("Digite a idade, o peso e a altura do jogador %d do time %d\n", i, j);
+         printf("Digite a idade, o peso e a altura do jogador %d do time %d\n", j, i);
          int age;
          float weight;
          double height;
